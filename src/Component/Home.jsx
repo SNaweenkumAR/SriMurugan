@@ -2,6 +2,7 @@ import React from "react";
 import VideoCarousel from "./lib/VideoCarousel";
 import MenuCarousel from "./Menu";
 import ReelCarousel from "./reel";
+import Contact from "./Contact";
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       </div>  
          <MenuCarousel/>
          <ReelCarousel/>
+         <Contact/>
         
     </div>
   );
