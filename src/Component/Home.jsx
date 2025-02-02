@@ -1,5 +1,8 @@
 import React from "react";
 import VideoCarousel from "./lib/VideoCarousel";
+import MenuCarousel from "./Menu";
+import ReelCarousel from "./reel";
+
 
 const Home = () => {
   return (
@@ -20,7 +23,10 @@ const Home = () => {
         <button className="mt-4 px-6 py-3 bg-[#8B4513] text-white font-bold rounded-lg hover:bg-[#A0522D] transition duration-300">
           Read More
         </button>
-      </div>
+      </div>  
+         <MenuCarousel/>
+         <ReelCarousel/>
+        
     </div>
   );
 };
