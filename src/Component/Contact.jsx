@@ -38,7 +38,7 @@ const handleSubmit = async (e) => {
     }
   
     try {
-      const response = await fetch(process.env.BACKEND_URL, {
+      const response = await fetch( "http://localhost:5000/api/contact" ||`${import.meta.env.VITE_BACKEND_URL}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
