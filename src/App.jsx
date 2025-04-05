@@ -7,12 +7,11 @@ import Footer from './Component/Footer'
 
 const App = () => {
   return (
-    <div>
-        <Navbar/>
+    <>
+      <Navbar/>
        <Home/>
        <Footer/>
-       
-    </div>
+       </>
   )
 }
 
